@@ -106,13 +106,16 @@ git clone https://github.com/tongzhouAM/acoustic-ai-customer-assessment.git \
 
 ---
 
-## 与 nvh-pre-sales-research 的配合
+## 与配套 skill 的关系
 
 | 场景 | 使用 skill |
 |------|-----------|
-| 判断某公司值不值得打、怎么打 | **本 skill** |
+| 任意行业的通用客户评估（不限于声学方案） | [customer-relevance-assessment](https://github.com/tongzhouAM/customer-relevance-assessment)（通用母版） |
+| 判断某公司值不值得打（声学行业版） | **本 skill** |
 | 锁定客户后做深度技术调研（异音特征、传感器布点） | [nvh-pre-sales-research](https://github.com/tongzhouAM/nvh-pre-sales-research) |
-| 先筛选再深入 | 本 skill → nvh-pre-sales-research（串联） |
+| 先筛选再深入 | 母版/本 skill → nvh-pre-sales-research（串联） |
+
+本 skill 是通用母版（customer-relevance-assessment）的声学行业垂直实例：流程一致，领域知识（场景库/竞品库/方案组件）预置在 references。
 
 ---
 
